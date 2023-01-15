@@ -1,0 +1,3 @@
+[console_scripts]
+pyverse = pyverse.__main__:silabify
+
