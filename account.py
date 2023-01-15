@@ -30,7 +30,7 @@ class Account(Resource):
         if datetime.fromisoformat(self.tokens[token]['expires']) < datetime.utcnow():
             return {'message': 'Token expired'}, 401
         if self.tokens[token]['token_type'] != 'admin_token':
-            return {'message': 'Unauthorized access, only admin users can access this method'}, 401
+            return {'message': 'Unauthorized access, only admin accounts can access this method'}, 401
         return self.accounts
 
     def post(self, name, account_type, password):

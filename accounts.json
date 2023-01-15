@@ -1,10 +1,18 @@
 {
-    "louay hachani": {
-        "user_type": "admin",
-        "password": "9b5d04ac09a961e090622a0efe01e1b1a5886f3d71f7153a3c12e6cb1c033d56"
-    },
     "ahmed": {
-        "user_type": "user",
-        "password": "e0a847c94804e30d86831e130231edd63a517ee08bde47586622f58a6382e7de"
+        "account_type": "user",
+        "password": "15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225"
+    },
+    "aziz": {
+        "account_type": "user",
+        "password": "15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225"
+    },
+    "moh": {
+        "account_type": "user",
+        "password": "15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225"
+    },
+    "louay hachani": {
+        "account_type": "admin",
+        "password": "15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225"
     }
 }

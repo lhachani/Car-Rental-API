@@ -23,11 +23,11 @@ class Token(Resource):
         # Check if the account exists and the password is correct
         if name not in self.accounts or self.accounts[name]['password'] != hashlib.sha256(password.encode()).hexdigest():
             return {'message': 'Invalid credentials'}, 401
-        user_type = self.accounts[name]['user_type']
+        account_type = self.accounts[name]['account_type']
         # Create a new token based on account_type
-        if user_type == 'admin':
+        if account_type == 'admin':
             token_type = 'admin_token'
-        elif user_type == 'user':
+        elif account_type == 'user':
             token_type = 'user_token'
         else:
             return {'message': 'Invalid account type'}, 401
