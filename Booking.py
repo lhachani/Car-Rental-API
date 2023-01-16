@@ -62,8 +62,7 @@ class Booking(Resource):
             return {'message': 'Invalid token'}, 401
         if datetime.fromisoformat(self.tokens[token]['expires']) < datetime.utcnow():
             return {'message': 'Token expired'}, 401
-        if self.tokens[token]['token_type'] != 'admin_token':
-            return {'message': 'Unauthorized access, only admin users can access this method'}, 401
+            return json.dumps(self.cars), status.HTTP_200_OK
 
         booking_id = id(self)
         car_type = request.args.get('car')

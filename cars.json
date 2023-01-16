@@ -1,8 +1,1 @@
-[
-    {
-        "model": "Tesla Model X",
-        "license_plate": "BELGIUM",
-        "type": "premium",
-        "fee": 90
-    }
-]
+[{"model": "Tesla Model X", "license_plate": "BELGIUM", "type": "premium", "fee": 90}]

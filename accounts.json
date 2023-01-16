@@ -1,18 +1,1 @@
-{
-    "ahmed": {
-        "account_type": "user",
-        "password": "15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225"
-    },
-    "aziz": {
-        "account_type": "user",
-        "password": "15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225"
-    },
-    "moh": {
-        "account_type": "user",
-        "password": "15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225"
-    },
-    "louay hachani": {
-        "account_type": "admin",
-        "password": "15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225"
-    }
-}
+{"ahmed": {"account_type": "user", "password": "15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225"}, "aziz": {"account_type": "user", "password": "15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225"}, "moh": {"account_type": "user", "password": "15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225"}, "louay hachani": {"account_type": "admin", "password": "15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225"}, "mohammed": {"account_type": "user", "password": "15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225"}, "mohamme": {"account_type": "user", "password": "15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225"}, "azi": {"account_type": "user", "password": "15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225"}, "ahme": {"account_type": "admin", "password": "15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225"}}
